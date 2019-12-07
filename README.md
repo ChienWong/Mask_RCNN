@@ -11,6 +11,10 @@
 # 数据集（DOTA-v1.5)
 ### 下载地址(https://captain-whu.github.io/DOAI2019/dataset.html)
 ### 请自行转换格式
+# 使用该项目
+### 请在train.py中配置相关参数，如何配置请参考(https://github.com/matterport/Mask_RCNN/blob/master/samples/shapes/train_shapes.ipynb)
+### 请按格式配置数据集，参考multiobjectdataset下的文件
+### 运行train.py
 ## focal loss使用
 ### focal loss下降缓慢，建议先使用交叉熵损失，后使用focal loss
 ### 默认使用交叉熵损失，若要使用focal loss,请取消注释model.py的1117行并修改对应的alpha值，取消注释1121行，注释1114行
